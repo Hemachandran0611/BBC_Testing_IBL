@@ -1,0 +1,30 @@
+{
+  "name": "bbc_testing",
+  "version": "1.0.0",
+  "description": "API testing repository for automating the provided scenarios",
+  "main": "index.js",
+  "scripts": {
+    "testScenario1": "npx ts-node -r ts-node/register node_modules/@cucumber/cucumber/bin/cucumber-js src/Method1/features/scenario1.feature --require src/Method1/step-definitions/scenario1Steps.ts",
+    "testScenario2": "npx ts-node -r ts-node/register node_modules/@cucumber/cucumber/bin/cucumber-js src/Method1/features/scenario2.feature --require src/Method1/step-definitions/scenario2Steps.ts",
+    "testScenario3": "npx ts-node -r ts-node/register node_modules/@cucumber/cucumber/bin/cucumber-js src/Method1/features/scenario3.feature --require src/Method1/step-definitions/scenario3Steps.ts",
+    "testScenario4": "npx ts-node -r ts-node/register node_modules/@cucumber/cucumber/bin/cucumber-js src/Method1/features/scenario4.feature --require src/Method1/step-definitions/scenario4Steps.ts",
+    "testScenario5": "npx ts-node -r ts-node/register node_modules/@cucumber/cucumber/bin/cucumber-js src/Method1/features/scenario5.feature --require src/Method1/step-definitions/scenario5Steps.ts",
+    "testScenario6": "npx ts-node -r ts-node/register node_modules/@cucumber/cucumber/bin/cucumber-js src/Method1/features/scenario6.feature --require src/Method1/step-definitions/scenario6Steps.ts",
+    "testScenario7": "npx ts-node -r ts-node/register node_modules/@cucumber/cucumber/bin/cucumber-js src/Method1/features/scenario7.feature --require src/Method1/step-definitions/scenario7Steps.ts",
+    "testAllScenarios": "call npm run testScenario1 & call npm run testScenario2 & call npm run testScenario3 & call npm run testScenario4 & call npm run testScenario5 & call npm run testScenario6 & call npm run testScenario7",
+    "method2Scenarios": "npx ts-node -r ts-node/register node_modules/@cucumber/cucumber/bin/cucumber-js src/Method2/combinedScenarios.feature --require src/Method2/combinedScenariosSteps.ts"
+
+  },
+  "keywords": [],
+  "author": "Hemanth",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@types/chai": "^4.3.10",
+    "@types/node": "^20.9.0",
+    "axios": "^1.6.2",
+    "chai": "^4.3.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
