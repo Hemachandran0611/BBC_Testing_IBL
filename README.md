@@ -1,6 +1,8 @@
 # BBC_Testing
 
-This is the API testing repository for automating the provided scenarios. It is structured into two parts: `BBC_Part1` contains the automation code for testing, and `BBC_Part2` contains Functional Manual Testing.
+This repository is dedicated to API testing for automating provided scenarios. It is structured into two main parts: 
+- `BBC_Part1` contains the automation code for testing.
+- `BBC_Part2` contains an Excel sheet for Functional Manual Testing, detailing test cases, scenarios, and results.
 
 ## Installation
 
@@ -16,7 +18,7 @@ Follow these steps to install the BBC_Testing_IBL project:
 
     After cloning, move into the project directory:
    ```bash
-   cd BBC_Testing_IBL
+   cd BBC_Testing_IBL\BBC_Testing\BBC_Part1
 
 3. **Install Dependencies**
 
